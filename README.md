@@ -1,4 +1,4 @@
-# Gesture-Recognition
+# PentoPixel
 Gesture recognizer which takes in coordinates corresponding  a persons hand written gesture, and returns the best "match" in terms of alphabetical terms.
 
 This project uses many concepts used in our CS135 Class in uwaterloo.
