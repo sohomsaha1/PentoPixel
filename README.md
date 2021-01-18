@@ -3,7 +3,7 @@ Gesture recognizer which takes in coordinates corresponding  a persons hand writ
 
 This project uses many concepts used in our CS135 Class in uwaterloo.
 
-ML algorithms used: $family specifcally $1 anf $P created by  Wobbrock, Wilson and Li of the University of Washington and Microsoft Research.
+ML algorithms used: $family specifcally $1 and $P created by  Wobbrock, Wilson and Li of the University of Washington and Microsoft Research.
 
 The file "templates.rkt" have several datasets of valid character and symbol data sets, recognize.rkt uses these templates 
 to find the best match when given a dataset of points.
