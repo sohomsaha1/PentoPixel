@@ -11,8 +11,8 @@ to find the best match when given a dataset of points.
 
 ## **Recognition Statistics:** 
 
-Alphabetical Letters: 80.7% (averaged, low: 71% high: 96%) Straighter letters such as i, and L have statistically better recognition rates.
+- Alphabetical Letters: **80.7%** (averaged, low: 71% high: 96%) Straighter letters such as i, and L have statistically better recognition rates.
 
-Symbols: 71.1& (averaged, low: 55% high: 98%)
+- Symbols: **71.1%** (averaged, low: 55% high: 98%)
 
 This project was enhanced from our CS 135 Assignment. 
