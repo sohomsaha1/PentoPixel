@@ -9,7 +9,7 @@ The file "templates.rkt" have several datasets of valid character and symbol dat
 to find the best match when given a dataset of points.
 
 
-Recognition Statistics: 
+## **Recognition Statistics:** 
 
 Alphabetical Letters: 80.7% (averaged, low: 71% high: 96%) Straighter letters such as i, and L have statistically better recognition rates.
 
