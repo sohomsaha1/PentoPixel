@@ -28,8 +28,7 @@
 
 
 
-;; 3a)
-;; These are helper functions. See assignment for design recipe requirements.
+
 
 
 ;; (get-x lst): This function consumes a point(lst) and returns its x-coordinate
@@ -139,8 +138,7 @@
                                      (max1(get-ys list1)-100000000))))
  
 
-;; 3b)
-;; Full design recipe required.
+
 
 ;; (gesture-length listX): This function consumes a gesture(listX)
 ;;                         with 2 points and returns the distance between them.
@@ -212,8 +210,6 @@
 
 
 
- 
-;; 3c) Starter code definitions
 
 
 
@@ -247,9 +243,7 @@
                                                 (five-sample-help listN (+ 1 counter)))]
        [ (= 4 counter) (cons (first(lastL listN)) (five-sample-help listN (+ 1 counter)))]))
 
-;; End of 3 ci helper functions
 
-;; 3ci)
 ;;(five-sample gesture) produces a sampling of gesture 5 points
 ;;  the first, n/4th, n/2th, 3n/4th, and last point.
 ;; Examples:
@@ -278,7 +272,6 @@
               (list (list 1 1) (list 2 2) (list 3 3) (list 4 4) (list 5 5)))
 
 
-;; 3cii)Helpers***************************************************
 
 ;; (min-x list1 num): This function takes in a gesture(list1)
 ;;  and finds the smallest x-coordinate value within all the Points in list1.
@@ -331,7 +324,6 @@
                         (originer (rest list1) list2))]))
 
 
-;; 3cii)Helper-End************************************************
 
 ;;(move-and-scale gesture x-scale y-scale) moves gesture to (0, 0) and
 ;;  scales it by (x-scale)x(y-scale)
@@ -367,7 +359,6 @@
 (define norm-size 200)
 
 
-;; 3ciii)Helpers***********************************************************
 
 ;; (max-x list1 num): This function consumes a gesture(list1) and returns
 ;; the largest x-coordinate from any of the Points in list1
@@ -449,7 +440,6 @@
        [else (list (/ 200(max-x (originer list1 list1) -1000))
                           (/ 200(max-y (originer list1 list1) -1000)))]))
 
-;; 3ciii)Helpers-End*******************************************************
  
 
 
@@ -484,7 +474,6 @@
 
 
 
-;; 3civ) Helpers************************************************************************
 
 ;; (eq_help list1 list2): This function finds the distance between
 ;; the two first Points in the gestures:list1 and list2
@@ -536,7 +525,6 @@
 (define (geom_convert list1 list2)(g_help (normalize-gesture(five-sample list1))
                                   (normalize-gesture(five-sample list2))0))
  
- ;; 3civ) Helpers-End*****************************************************************
 
 
 ;;(geometric-5match gesture1 gesture2) produces the average distance between
